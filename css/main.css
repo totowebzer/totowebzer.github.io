@@ -1,0 +1,101 @@
+@import "bootstrap-sprockets";
+@import "bootstrap";
+
+body {
+	padding-top: 120px;
+}
+
+section {
+	overflow: auto;
+}
+
+textarea {
+	resize: vertical;
+}
+
+.center {
+	text-align: center;
+}
+
+.center h1 {
+	margin-bottom: 10px;
+}
+
+h1, h2, h3, h4, h5, h6 {
+	line-height: 1;
+}
+
+#logo {
+	float: left;
+	margin-right: 10px;
+	font-size: 1.7em;
+	color: #fff;
+	letter-spacing: -1px;
+	padding-top: 9px;
+	font-weight: bold;
+}
+
+h1 {
+	font-size: 3em;
+	letter-spacing: -2px;
+	margin-bottom: 30px;
+	text-align: center;
+}
+
+h2 {
+	font-size: 1.4em;
+	letter-spacing: -1px;
+	margin-top: 40px;
+	margin-bottom: 20px;
+	font-weight: bold;
+	color: #1f5aba;
+}
+
+.navbar-inverse {
+	background-color: #1f5aba;
+	border-color: #090909;
+}
+
+.pad {
+	margin-top:50px;
+}
+
+.last {
+	padding-bottom: 20px;
+}
+
+.address {
+	font-size: 1.1em;
+}
+
+.bigger_text {
+	font-size: 16px;
+}
+
+.phone {
+	margin-top:20px;
+	margin-bottom:30px;
+}
+
+ul li {
+	margin-bottom:20px;
+}
+
+.activity_dom {
+	font-weight: normal;
+}
+
+.toto {
+	font-size: 32px;
+	margin-block-start: 1em;
+	margin-block-end: 1em;
+	margin-bottom: 10px;
+	letter-spacing: 0.2px;
+	color: white;
+}
+
+.toto_small {
+	@extend .h4;
+	letter-spacing: 0.2px;
+	color: white;
+}
