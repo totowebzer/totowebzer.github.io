@@ -83,7 +83,23 @@ h2 {
 }
 
 #first {
-  padding-top: 20px;
+  margin-top: 20px;
+}
+
+#cursus {
+  margin-top: 20px;
+}
+
+#soc_savantes {
+  margin-top: 20px;
+}
+
+#publis_innovantes {
+  margin-top: 20px;
+}
+
+#articles_livres {
+  margin-top: 20px;
 }
 
 .address {
