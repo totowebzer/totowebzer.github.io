@@ -118,6 +118,11 @@ ul li {
 	color: white;
 }
 
+#head {
+  display: flex;
+  flex-direction: column;
+}
+
 /*!
  * Bootswatch v4.2.1
  * Homepage: https://bootswatch.com
