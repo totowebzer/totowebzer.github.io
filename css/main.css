@@ -1,6 +1,9 @@
 @import "bootstrap-sprockets";
 @import "bootstrap";
 
+body {
+	font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;	
+}
 
 #all {
 	padding-left: 5%;
@@ -63,6 +66,11 @@ h2 {
 .navbar {
 	margin-right: 0;
 	margin-left: 0;
+}
+
+.navbar-fixed-top {
+    top: 0;
+    border-width: 0 0 1px;	
 }
 
 .pad {
