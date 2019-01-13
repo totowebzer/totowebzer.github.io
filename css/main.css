@@ -1,7 +1,8 @@
 @import "bootstrap-sprockets";
 @import "bootstrap";
 
-body {
+
+#all {
 	padding-left: 5%;
 	padding-right: 5%;
 }
@@ -53,6 +54,8 @@ h2 {
 }
 
 .navbar-inverse {
+	margin-right: 0;
+	margin-left: 0;
 	background-color: #1f5aba;
 	border-color: #090909;
 }
