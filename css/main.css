@@ -79,7 +79,11 @@ h2 {
 }
 
 .last {
-	padding-bottom: 20px;
+	padding-bottom: 10px;
+}
+
+#first {
+  padding-top: 20px;
 }
 
 .address {
